@@ -1,0 +1,25 @@
+.error {
+    color: red;
+  }
+  
+  .input-error {
+    border: 1px solid red;
+  }
+  
+  .input-success {
+    border-color: green;
+  }
+  input:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: none; /* Remove any box shadow */
+  }
+  .password-weak {
+    border: 1px solid red;
+    color: red;
+  }
+  
+  .password-strong {
+    border: 1px solid green;
+    color: green;
+  }
+  

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.0 on win32)" generated="20230610 13:10:17.328" rpa="false" schemaversion="3">
+<suite id="s1" name="Validation Tests" source="D:\react_validation\validation\tests\validation_tests.robot">
+<test id="s1-t1" name="Example Test" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${CHROMEDRIVER PATH}</arg>
+<arg>timeout=10s</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230610 13:10:17.574" level="FAIL">Keyword 'SeleniumLibrary.Open Browser' got unexpected named argument 'timeout'.</msg>
+<status status="FAIL" starttime="20230610 13:10:17.574" endtime="20230610 13:10:17.574"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Example Domain</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20230610 13:10:17.575" endtime="20230610 13:10:17.575"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Welcome to Example Domain</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20230610 13:10:17.575" endtime="20230610 13:10:17.576"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230610 13:10:17.576" endtime="20230610 13:10:17.576"/>
+</kw>
+<status status="FAIL" starttime="20230610 13:10:17.573" endtime="20230610 13:10:17.576">Keyword 'SeleniumLibrary.Open Browser' got unexpected named argument 'timeout'.</status>
+</test>
+<status status="FAIL" starttime="20230610 13:10:17.330" endtime="20230610 13:10:17.578"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Validation Tests">Validation Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
